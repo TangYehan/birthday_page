@@ -1,28 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <audio src="assets/bgm.mp3" ref="MusicPlay" loop autoplay></audio> -->
+    <!-- <audio controls autoplay>
+      <source src="assets/bg.mp3" type="audio/mpeg" />
+    </audio> -->
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  // mounted(){
+  //   this.$refs.MusicPlay.pause();
+  //       // this.musicTF = true
+  //       console.log(123)
+  // }
+};
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  overflow: scroll;
 }
 </style>
