@@ -2,7 +2,7 @@
  <div id="part1">
      <div id="one">惊喜</div>
      <div id="two">从这里开始</div>
-     <div id="three">人生进度条：</div>
+     <div id="three">人生进度条：20%</div>
      <div id="four"><div></div></div>
  </div>
 </template>
@@ -10,11 +10,11 @@
 <script>
  
 export default {
- mounted(){
-   setTimeout(()=>{
-       this.$router.replace("/part2");
-   },6000)
- }
+//  mounted(){
+//    setTimeout(()=>{
+//        this.$router.replace("/part2");
+//    },6000)
+//  }
 }
 </script>
  

@@ -9,7 +9,7 @@
     <div>凛冬散尽 星河长明</div>
     <div>每天都能睡到自然醒</div>
     <div>多喜乐 长安宁</div>
-    <div>岁岁年年 万喜万般宜</div>
+    <div>一定要幸福鸭！</div>
     <div><img src="../assets/cake.gif"></div>
   </div>
 </template>
@@ -160,7 +160,7 @@ export default {};
 }
 
 #part3 div:nth-child(10) {
-  font-size: 10vw;
+  font-size: 13vw;
   left: 50px;
   animation: ten 1s forwards;
   animation-delay: 9s;

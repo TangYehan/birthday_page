@@ -2,7 +2,7 @@
   <div id="part2">
       <div id="content">
     <div>
-      <div class="year">2002</div>
+      <div class="year">2005</div>
       <div class="year_img"><img src="../assets/1.jpg" /></div>
     </div>
     <div>
@@ -11,7 +11,7 @@
     </div>
     <div>
         <div class="year">2019</div>
-      <div class="year_img"><img src="../assets/3.png" /></div>
+      <div class="year_img"><img src="../assets/3.jpg" /></div>
     </div>
      <div>
         <div class="year">2020</div>
