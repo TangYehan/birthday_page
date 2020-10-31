@@ -10,11 +10,11 @@
 <script>
  
 export default {
-//  mounted(){
-//    setTimeout(()=>{
-//        this.$router.replace("/part2");
-//    },6000)
-//  }
+ mounted(){
+   setTimeout(()=>{
+       this.$router.replace("/part2");
+   },6000)
+ }
 }
 </script>
  
